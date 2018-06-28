@@ -25,3 +25,8 @@ License
 -------
 
 The project is licensed under the BSD license.
+
+Authors
+-------
+
+* Stelios Trevlakis
