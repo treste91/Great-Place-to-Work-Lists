@@ -1,4 +1,4 @@
-Great Place to Work Lists
+GPTW Lists
 =========================
 
 Great Place to Work Lists is a detailed guide on how to use the GPTW Lists component of the greatplacetowork.com.
