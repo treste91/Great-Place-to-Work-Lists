@@ -9,6 +9,7 @@ Welcome to Great Place to Work Lists documentation!
 Contents:
 
 .. toctree::
+   :caption: Basic information
    :maxdepth: 2
    :glob:
 
@@ -16,13 +17,13 @@ Contents:
 
 .. toctree::
    :caption: Backend Component
-   :maxdepth: 2
+   :maxdepth: 3
    
    pages/b_1_views
    pages/b_2_translations
    
 .. toctree::
    :caption: Frontend Component
-   :maxdepth: 2
+   :maxdepth: 3
    
    pages/c_1_views
