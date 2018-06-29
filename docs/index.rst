@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to Great Place to Work Lists documentation!
-==================================================
+***************************************************
 
 Contents:
 
@@ -16,13 +16,13 @@ Contents:
 
 .. toctree::
    :caption: Backend Component
-   :maxdepth: 3
+   :maxdepth: 2
    
    b_1_views
    b_2_translations
    
 .. toctree::
    :caption: Frontend Component
-   :maxdepth: 3
+   :maxdepth: 2
    
    c_1_views
