@@ -1,5 +1,5 @@
 GPTW Lists
-==========
+**********
 
 Great Place to Work Lists is a detailed guide on how to use the GPTW Lists component of the greatplacetowork.com.
 This documentation provides a basic explanation of the functionality provided by this component.
