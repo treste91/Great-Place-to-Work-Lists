@@ -16,14 +16,14 @@ Contents:
    *
 
 .. toctree::
-   :caption: Backend Component
+   :caption: Backend
    :maxdepth: 3
    
    pages/b_1_views
    pages/b_2_translations
    
 .. toctree::
-   :caption: Frontend Component
+   :caption: Frontend
    :maxdepth: 3
    
    pages/c_1_views
