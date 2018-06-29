@@ -18,11 +18,11 @@ Contents:
    :caption: Backend Component
    :maxdepth: 2
    
-   b_1_views
-   b_2_translations
+   pages/b_1_views
+   pages/b_2_translations
    
 .. toctree::
    :caption: Frontend Component
    :maxdepth: 2
    
-   c_1_views
+   pages/c_1_views
