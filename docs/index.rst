@@ -13,3 +13,17 @@ Contents:
    :glob:
 
    *
+
+.. toctree::
+   :caption: Backend Component
+   :maxdepth: 3
+   
+   b_1_views
+   b_2_translations
+   
+.. toctree::
+   :caption: Frontend Component
+   :maxdepth: 3
+   
+   c_1_views
+   c_2_translations
