@@ -26,4 +26,3 @@ Contents:
    :maxdepth: 3
    
    c_1_views
-   c_2_translations
