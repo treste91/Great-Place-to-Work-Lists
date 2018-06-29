@@ -9,7 +9,7 @@ Welcome to Great Place to Work Lists documentation!
 Contents:
 
 .. toctree::
-   :caption: Basic information
+   :caption: Information
    :maxdepth: 2
    :glob:
 
