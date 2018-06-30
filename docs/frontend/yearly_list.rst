@@ -1,4 +1,3 @@
-
 Yearly list view
 ================
 
@@ -9,11 +8,11 @@ Content
 
 The content of the yearly list view page is structured as follows:
 
-* Banner. The basic information of the yearly list are presented alongside the logo and banner images.
+* **Banner**. The basic information of the yearly list are presented alongside the logo and banner images.
 
-* Company participations. The companies that participated in the current yearly list are presented according to their rank.
+* **Company participations**. The companies that participated in the current yearly list are presented according to their rank.
 
-* Extra links. Some usefull links are included in this view in order to improve the users' experience.
+* **Extra links**. Some usefull links are included in this view in order to improve the users' experience.
 
 Banner
 ^^^^^^
@@ -21,13 +20,13 @@ Banner
 The first part of this page is occupied by a banner area.
 This area consists of the information concerning the current yearly list, such as:
 
-* The logo of the yearly list,
+* The **logo** of the yearly list,
 
-* The name of the yearly list,
+* The **name** of the yearly list,
 
-* The description of the yearly list, and
+* The **description** of the yearly list, and
 
-* The banner image of the yearly list.
+* The **banner** image of the yearly list.
 
 .. image:: yearly_list_view_1.png
    :scale: 50 %
@@ -42,15 +41,15 @@ The companies are listed according to the ranking they achieved.
 
 The template used for each company contains the following information:
 
-* The company's name,
+* The company's **name**,
 
-* The company's indusrty,
+* The company's **indusrty**,
 
-* The company's location,
+* The company's **location**,
 
-* A link to the company's great place to work reviews profile, and 
+* A link to the company's **great place to work reviews profile**, and 
 
-* The company's quote.
+* The company's **quote**.
 
 .. image:: yearly_list_view_2.png
    :scale: 50 %
@@ -62,9 +61,9 @@ Extra links
 
 Some usefull links are placed next to the participations:
 
-* Recent lists releases. This section presents a list of the most recently created yearly lists.
+* **Recent lists releases**. This section presents a list of the most recently created yearly lists.
 
-* List archive. In this section the yearly lists that belong in the curent list are chronologically listed.
+* **List archive**. In this section the yearly lists that belong in the curent list are chronologically listed.
 
 Layouts
 -------
@@ -72,17 +71,17 @@ Layouts
 There functionality to create different layouts has been developed in order to provide a personalized experience.
 Two layouts are available so far for demponstration purposes:
 
-* Default and
+* **Default** and
 
-* Single column.
+* **Single column**.
 
-In both layouts the banner area of the view remains the same. As a result the following documentation will focus on the main content area.
+In both layouts **the banner area of the view remains the same**. As a result the following documentation will focus on the main content area.
 
 Default
 ^^^^^^^
 
-In this design the company participations are presented in the right column and are ordered chronologically from latest to oldest. 
-In the right column the the recent list releases and list archive section are displayed.
+In this design the company participations are presented in the **left column** and are ordered chronologically from latest to oldest. 
+In the **right column** the the recent list releases and list archive section are displayed.
 
 .. image:: yearly_list_default.png
    :scale: 50 %
@@ -92,7 +91,7 @@ In the right column the the recent list releases and list archive section are di
 Single column
 ^^^^^^^^^^^^^
 
-In this design the company participations are presented in a single column and are again ordered chronologically from the latest to the oldest.
+In this design the company participations are presented in a **single column** and are again ordered chronologically from the latest to the oldest.
 The list archive section follows underneath. 
 
 .. image:: yearly_list_single_column.png
