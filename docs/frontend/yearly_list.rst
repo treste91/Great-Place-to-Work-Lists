@@ -76,6 +76,8 @@ Two layouts are available so far for demponstration purposes:
 
 * Single column.
 
+In both layouts the banner area of the view remains the same. As a result the following documentation will focus on the main content area.
+
 Default
 ^^^^^^^
 
