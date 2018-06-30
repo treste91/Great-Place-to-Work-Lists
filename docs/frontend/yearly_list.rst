@@ -7,6 +7,14 @@ The yearly list details are presented in this part of the fronend component.
 Content
 -------
 
+The content of the yearly list view page is structured as follows:
+
+* Banner. The basic information of the yearly list are presented alongside the logo and banner images.
+
+* Company participations. The companies that participated in the current yearly list are presented according to their rank.
+
+* Extra links. Some usefull links are included in this view in order to improve the users' experience.
+
 Banner
 ^^^^^^
 
@@ -23,7 +31,7 @@ This area consists of the information concerning the current yearly list, such a
 
 .. image:: yearly_list_view_1.png
    :scale: 50 %
-   :alt: yearly_list_view_1
+   :alt: Yearly list view 1
    :align: center
 
 Company participations
@@ -46,10 +54,10 @@ The template used for each company contains the following information:
 
 .. image:: yearly_list_view_2.png
    :scale: 50 %
-   :alt: yearly_list_view_2
+   :alt: Yearly list view 2
    :align: center
 
-Other links
+Extra links
 ^^^^^^^^^^^
 
 Some usefull links are placed next to the participations:
@@ -61,4 +69,31 @@ Some usefull links are placed next to the participations:
 Layouts
 -------
 
+There functionality to create different layouts has been developed in order to provide a personalized experience.
+Two layouts are available so far for demponstration purposes:
 
+* Default and
+
+* Single column.
+
+Default
+^^^^^^^
+
+In this design the company participations are presented in the right column and are ordered chronologically from latest to oldest. 
+In the right column the the recent list releases and list archive section are displayed.
+
+.. image:: yearly_list_default.png
+   :scale: 50 %
+   :alt: Default layout
+   :align: center
+
+Single column
+^^^^^^^^^^^^^
+
+In this design the company participations are presented in a single column and are again ordered chronologically from the latest to the oldest.
+The list archive section follows underneath. 
+
+.. image:: yearly_list_single_column.png
+   :scale: 50 %
+   :alt: Single column layout
+   :align: center
