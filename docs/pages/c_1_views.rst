@@ -1,62 +1,31 @@
 
-Views
-=====
+Lists view
+==========
 
-The available views that constitute the component are displayed below:
+A selection of the available lists are presented in this part of the fronend component.
 
-* Affiliates
+List selection
+--------------
 
-* Companies
+A subset of the total available lists can be selected in the backend configuration of the frontend component.
 
-* Lists
+This subset can be form by selecting:
 
-* List Categories
+* Lists that are owned by certain affiliates, and/or 
 
-* Yearly lists
+* Specific lists.
 
-* Yearly list labels
+Features
+--------
 
-* Labeled yearly lists
+Filtering
+^^^^^^^^^
 
-* Labeled yearly list participations
+The user is offered the capability to filter the presented lists by the category they belong to.
 
-Affiliates
-----------
-
-The view presenting the available affiliates.
-
-Companies
----------
-
-The view presenting the available companies.
-
-Lists
------
-
-The view presenting the available lists.
-
-List categories
----------------
-
-The view presenting the available list categories.
-
-Yearly lists
-------------
-
-The view presenting the available yearly lists.
-
-Yearly list labels
-------------------
-
-The view presenting the available yearly list labels.
-
-Labeled yearly lists
---------------------
-
-The view presenting the available labeled yearly lists.
-
-Labeled yearly list participations
-----------------------------------
-
-The view presenting the available labeled yearly list participations.
-
+.. image:: lists_filtering.png
+   :width: 200px
+   :height: 100px
+   :scale: 50 %
+   :alt: Filtering
+   :align: right
