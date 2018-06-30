@@ -32,23 +32,31 @@ Company participations
 The list of the companies that participated in the displayed yearly list are presented after the banner section.
 The companies are listed according to the ranking they achieved.
 
-Other links
-^^^^^^^^^^^
+The template used for each company contains the following information:
 
-Some usefull links are placed next to the participations:
+* The company's name,
 
-* Recent lists releases
+* The company's indusrty,
 
-This section presents a list of the most recently created yearly lists.
+* The company's location,
 
-* List archive
+* A link to the company's great place to work reviews profile, and 
 
-In this section different yearly lists are chronologically listed.
+* The company's quote.
 
 .. image:: yearly_list_view_2.png
    :scale: 50 %
    :alt: yearly_list_view_2
    :align: center
+
+Other links
+^^^^^^^^^^^
+
+Some usefull links are placed next to the participations:
+
+* Recent lists releases. This section presents a list of the most recently created yearly lists.
+
+* List archive. In this section the yearly lists that belong in the curent list are chronologically listed.
 
 Layouts
 -------
