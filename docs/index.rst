@@ -27,4 +27,5 @@ Contents:
    :maxdepth: 3
    
    frontend/lists
+   frontend/list
    frontend/yearly_list
