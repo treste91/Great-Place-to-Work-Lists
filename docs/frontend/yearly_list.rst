@@ -21,9 +21,9 @@ This area consists of the information concerning the current yearly list, such a
 
 * The banner image of the yearly list.
 
-.. image:: yearly_list_1.png
+.. image:: yearly_list_view_1.png
    :scale: 50 %
-   :alt: yearly_list_1
+   :alt: yearly_list_view_1
    :align: center
 
 Company participations
@@ -45,9 +45,9 @@ This section presents a list of the most recently created yearly lists.
 
 In this section different yearly lists are chronologically listed.
 
-.. image:: yearly_list_2.png
+.. image:: yearly_list_view_2.png
    :scale: 50 %
-   :alt: yearly_list_2
+   :alt: yearly_list_view_2
    :align: center
 
 Layouts
