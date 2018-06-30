@@ -15,6 +15,11 @@ This subset can be formed by selecting:
 
 * Specific lists.
 
+.. image:: lists_configuration.png
+   :scale: 50 %
+   :alt: Filtering
+   :align: center
+
 Features
 --------
 
@@ -26,4 +31,4 @@ The user is offered the capability to filter the presented lists by the category
 .. image:: lists_filtering.png
    :scale: 50 %
    :alt: Filtering
-   :align: right
+   :align: center
