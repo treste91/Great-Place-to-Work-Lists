@@ -58,7 +58,7 @@ Single column
 
 In this design the lists are presented in a single column and again they are ordered chronologically from latest to oldest. 
 
-.. image:: lists_default.png
+.. image:: lists_single_column.png
    :scale: 50 %
    :alt: Single column layout
    :align: center
