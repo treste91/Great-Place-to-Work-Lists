@@ -109,17 +109,17 @@ Frequently asked questions
 Frequently asked asked questions are answered in order to aid the customers.
 Some examples are:
 
-* **Who’s eligible for the Best Workplaces list?**,
+* **Who’s eligible for the Best Workplaces list?**
 
-* **How long does the Certification process take?**,
+* **How long does the Certification process take?**
 
-* **How much does it cost to get certified?**,
+* **How much does it cost to get certified?**
 
-* **What happens if I don't meet the Certification threshold?**,
+* **What happens if I don't meet the Certification threshold?**
 
-* **How are Best Workplaces selected?**, and
+* **How are Best Workplaces selected?**
 
-* **What is the deadline to be considered?**.
+* **What is the deadline to be considered?**
 
 .. image:: list_view_6.png
    :scale: 50 %
