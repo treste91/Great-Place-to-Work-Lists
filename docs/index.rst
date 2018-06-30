@@ -19,11 +19,12 @@ Contents:
    :caption: Backend
    :maxdepth: 3
    
-   pages/b_1_views
-   pages/b_2_translations
+   backend/views
+   backend/translations
    
 .. toctree::
    :caption: Frontend
    :maxdepth: 3
    
-   pages/c_1_views
+   frontend/lists
+   frontend/yearly_list
