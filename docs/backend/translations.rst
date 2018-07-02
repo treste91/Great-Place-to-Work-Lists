@@ -106,7 +106,7 @@ List categories
 
 The translations linked to the available list categories.
 
-.. image:: translations_edit_list_categorie.png
+.. image:: translations_edit_list_category.png
    :scale: 50 %
    :alt: List categories
    :align: center
