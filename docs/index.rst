@@ -20,8 +20,8 @@ Contents:
    :maxdepth: 3
    
    backend/db_entries
-   backend/views
    backend/translations
+   backend/languages
    
 .. toctree::
    :caption: Frontend
