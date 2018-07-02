@@ -15,8 +15,11 @@ The available translations available for the component are displayed below:
 
 * Labeled yearly list participations
 
+Display existing translations
+-----------------------------
+
 Companies
----------
+^^^^^^^^^
 
 The translations linked to the available companies.
 
@@ -26,7 +29,7 @@ The translations linked to the available companies.
    :align: center
 
 Lists
------
+^^^^^
 
 The translations linked to the available lists.
 
@@ -36,7 +39,7 @@ The translations linked to the available lists.
    :align: center
 
 List categories
----------------
+^^^^^^^^^^^^^^^
 
 The translations linked to the available list categories.
 
@@ -46,7 +49,7 @@ The translations linked to the available list categories.
    :align: center
 
 Yearly lists
-------------
+^^^^^^^^^^^^
 
 The translations linked to the available yearly lists.
 
@@ -56,7 +59,7 @@ The translations linked to the available yearly lists.
    :align: center
 
 Yearly list labels
-------------------
+^^^^^^^^^^^^^^^^^^
 
 The translations linked to the available yearly list labels.
 
@@ -66,11 +69,74 @@ The translations linked to the available yearly list labels.
    :align: center
 
 Labeled yearly list participations
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The translations linked to the available labeled yearly list participations.
 
 .. image:: translations_labeled_yearly_list_participations.png
+   :scale: 50 %
+   :alt: Labeled yearly list participations
+   :align: center
+
+Edit/create translations
+------------------------
+
+Companies
+^^^^^^^^^
+
+The translations linked to the available companies.
+
+.. image:: translations_edit_company.png
+   :scale: 50 %
+   :alt: Companies
+   :align: center
+
+Lists
+^^^^^
+
+The translations linked to the available lists.
+
+.. image:: translations_edit_list.png
+   :scale: 50 %
+   :alt: Lists
+   :align: center
+
+List categories
+^^^^^^^^^^^^^^^
+
+The translations linked to the available list categories.
+
+.. image:: translations_edit_list_categorie.png
+   :scale: 50 %
+   :alt: List categories
+   :align: center
+
+Yearly lists
+^^^^^^^^^^^^
+
+The translations linked to the available yearly lists.
+
+.. image:: translations_edit_yearly_list.png
+   :scale: 50 %
+   :alt: Yearly lists
+   :align: center
+
+Yearly list labels
+^^^^^^^^^^^^^^^^^^
+
+The translations linked to the available yearly list labels.
+
+.. image:: translations_edit_yearly_list_label.png
+   :scale: 50 %
+   :alt: Yearly list labels
+   :align: center
+
+Labeled yearly list participations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The translations linked to the available labeled yearly list participations.
+
+.. image:: translations_edit_labeled_yearly_list_participation.png
    :scale: 50 %
    :alt: Labeled yearly list participations
    :align: center
