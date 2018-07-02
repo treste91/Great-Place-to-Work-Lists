@@ -19,6 +19,7 @@ Contents:
    :caption: Backend
    :maxdepth: 3
    
+   backend/db_entries
    backend/views
    backend/translations
    
