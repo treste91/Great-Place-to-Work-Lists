@@ -517,10 +517,83 @@ Yearly lists
 
 This view enables the editing of the available **yearly lists**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **List**,
+
+* **Year**,
+
+* **English name**,
+
+* **English description**,
+
+* **English logo URL**,
+
+* **Banner image**,
+
+* **Publication date**,
+
+* **Certification date**, and
+
+* **State**, and
+
+* **Methodology**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **List** field is required and can be selected from a drop down list containnig the existing lists.
+
+The **Year** field is required and must be an integer.
+
+The **English name** field is required and must be less than *255 characters*.
+
+The **English description** field is required and must be of type text.
+
+The **English logo URL** field is required and must be of type text.
+
+The **Banner image** field is required and must be of type text.
+
+The **Publication date** field is required and must be a date.
+
+The **Certification date** field is required and must be a date.
+
+The **State** field is required and must be an integer.
+
+The **Methodology** field is required and must be of type text.
+
 .. image:: db_entries_edit_yearly_list.png
    :scale: 50 %
    :alt: Yearly list
    :align: center
+
+Furthermore, this form contains multiple *auto-generated* **translation sub-forms** for each of the languages associated with the affiliate of the logged user!
+Each **translation sub-form** contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Yearly list**,
+
+* **Name**, 
+
+* **Description**, and
+
+* **Logo URL**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is *auto-filled* based on the language locale associated with the affiliate of the user.
+
+The **Yearly list** field is *auto-filled* based on the current yearly list.
+
+The **Name** field must be less than *255 characters*.
+
+The **Description** field must be of type text.
+
+The **Logo URL** field must be of type text.
 
 .. image:: db_entries_edit_yearly_list_translation.png
    :scale: 50 %
