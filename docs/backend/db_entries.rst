@@ -604,10 +604,51 @@ Labeled yearly list participations
 
 This view enables the editing of the available **labeled yearly list participations**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **Labeled yearly list**,
+
+* **Company**,
+
+* **English company quote**, and
+
+* **Rank**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Labeled yearly list** field is required and can be selected from a drop down list containnig the existing labeled yearly lists.
+
+The **Company** field is required and can be selected from a drop down list containnig the existing companies.
+
+The **English company quote** field is required and must be of type text.
+
+The **Rank** field is required and must be an integer.
+
 .. image:: db_entries_edit_labeled_yearly_list_participation.png
    :scale: 50 %
    :alt: Labeled yearly list participation
    :align: center
+
+Furthermore, this form contains multiple *auto-generated* **translation sub-forms** for each of the languages associated with the affiliate of the logged user!
+Each **translation sub-form** contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Labeled yearly list participation**, and
+
+* **Company quote**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is *auto-filled* based on the language locale associated with the affiliate of the user.
+
+The **Labeled yearly list participation** field is *auto-filled* based on the current labeled yearly list participation.
+
+The **Company quote** field must be of type text.
 
 .. image:: db_entries_edit_labeled_yearly_list_participation_translation.png
    :scale: 50 %
