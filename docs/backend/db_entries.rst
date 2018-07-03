@@ -25,7 +25,7 @@ Display existing entries
 Affiliates
 ^^^^^^^^^^
 
-The view presenting the available affiliates.
+This view presents the available affiliates.
 
 .. image:: db_entries_affiliates.png
    :scale: 50 %
@@ -105,10 +105,29 @@ The view presenting the available labeled yearly list participations.
 Edit/create entries
 -------------------
 
+Except for the views that display the existing database entries, the functionality exists to create new and edit existing database enties. 
+
+For this reason, a number of buttons and the necessary functions have been created in the previous views. 
+These buttons are:
+
+* New
+
+* Edit
+
+* Delete
+
+In the following subsections the edit/create view of each type of entries is analyzed. 
+
 Affiliates
 ^^^^^^^^^^
 
-The view presenting the available affiliates.
+This view enables the editing of the available affiliates.
+This form is simple.
+It contains two fields:
+
+* ID, and
+
+* Name
 
 .. image:: db_entries_edit_affiliate.png
    :scale: 50 %
@@ -118,7 +137,7 @@ The view presenting the available affiliates.
 Companies
 ^^^^^^^^^
 
-The view presenting the available companies.
+This view enables the editing of the available companies.
 
 .. image:: db_entries_edit_company.png
    :scale: 50 %
@@ -128,7 +147,7 @@ The view presenting the available companies.
 Lists
 ^^^^^
 
-The view presenting the available lists.
+This view enables the editing of the available lists.
 
 .. image:: db_entries_edit_list.png
    :scale: 50 %
@@ -138,7 +157,7 @@ The view presenting the available lists.
 List categories
 ^^^^^^^^^^^^^^^
 
-The view presenting the available list categories.
+This view enables the editing of the available list categories.
 
 .. image:: db_entries_edit_list_category.png
    :scale: 50 %
@@ -158,7 +177,7 @@ The view presenting the available yearly lists.
 Yearly list labels
 ^^^^^^^^^^^^^^^^^^
 
-The view presenting the available yearly list labels.
+This view enables the editing of the available yearly list labels.
 
 .. image:: db_entries_edit_yearly_list_label.png
    :scale: 50 %
@@ -168,7 +187,7 @@ The view presenting the available yearly list labels.
 Labeled yearly lists
 ^^^^^^^^^^^^^^^^^^^^
 
-The view presenting the available labeled yearly lists.
+This view enables the editing of the available labeled yearly lists.
 
 .. image:: db_entries_edit_labeled_yearly_list.png
    :scale: 50 %
@@ -178,7 +197,7 @@ The view presenting the available labeled yearly lists.
 Labeled yearly list participations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The view presenting the available labeled yearly list participations.
+This view enables the editing of the available labeled yearly list participations.
 
 .. image:: db_entries_edit_labeled_yearly_list_participation.png
    :scale: 50 %
