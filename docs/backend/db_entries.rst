@@ -147,7 +147,12 @@ It contains two fields:
 
 .. image:: db_entries_edit_affiliate.png
    :scale: 50 %
-   :alt: Affiliates
+   :alt: Affiliate
+   :align: center
+
+.. image:: db_entries_edit_affiliate_translation.png
+   :scale: 50 %
+   :alt: Affiliate translation
    :align: center
 
 Companies
@@ -157,7 +162,12 @@ This view enables the editing of the available **companies**.
 
 .. image:: db_entries_edit_company.png
    :scale: 50 %
-   :alt: Companies
+   :alt: Company
+   :align: center
+
+.. image:: db_entries_edit_company_translation.png
+   :scale: 50 %
+   :alt: Company translation
    :align: center
 
 Lists
@@ -167,7 +177,12 @@ This view enables the editing of the available **lists**.
 
 .. image:: db_entries_edit_list.png
    :scale: 50 %
-   :alt: Lists
+   :alt: List
+   :align: center
+
+.. image:: db_entries_edit_list_translation.png
+   :scale: 50 %
+   :alt: List translation
    :align: center
 
 List categories
@@ -177,7 +192,12 @@ This view enables the editing of the available **list categories**.
 
 .. image:: db_entries_edit_list_category.png
    :scale: 50 %
-   :alt: List categories
+   :alt: List category
+   :align: center
+
+.. image:: db_entries_edit_list_category_translation.png
+   :scale: 50 %
+   :alt: List category translation
    :align: center
 
 Yearly lists
@@ -187,7 +207,12 @@ This view enables the editing of the available **yearly lists**.
 
 .. image:: db_entries_edit_yearly_list.png
    :scale: 50 %
-   :alt: Yearly lists
+   :alt: Yearly list
+   :align: center
+
+.. image:: db_entries_edit_yearly_list_translation.png
+   :scale: 50 %
+   :alt: Yearly list translation
    :align: center
 
 Yearly list labels
@@ -197,7 +222,12 @@ This view enables the editing of the available **yearly list labels**.
 
 .. image:: db_entries_edit_yearly_list_label.png
    :scale: 50 %
-   :alt: Yearly list labels
+   :alt: Yearly list label
+   :align: center
+
+.. image:: db_entries_edit_yearly_list_label_translation.png
+   :scale: 50 %
+   :alt: Yearly list label translation
    :align: center
 
 Labeled yearly lists
@@ -207,7 +237,12 @@ This view enables the editing of the available **labeled yearly lists**.
 
 .. image:: db_entries_edit_labeled_yearly_list.png
    :scale: 50 %
-   :alt: Labeled yearly lists
+   :alt: Labeled yearly list
+   :align: center
+
+.. image:: db_entries_edit_labeled_yearly_list_translation.png
+   :scale: 50 %
+   :alt: Labeled yearly list translation
    :align: center
 
 Labeled yearly list participations
@@ -217,5 +252,10 @@ This view enables the editing of the available **labeled yearly list participati
 
 .. image:: db_entries_edit_labeled_yearly_list_participation.png
    :scale: 50 %
-   :alt: Labeled yearly list participations
+   :alt: Labeled yearly list participation
+   :align: center
+
+.. image:: db_entries_edit_labeled_yearly_list_participation_translation.png
+   :scale: 50 %
+   :alt: Labeled yearly list participation translation
    :align: center
