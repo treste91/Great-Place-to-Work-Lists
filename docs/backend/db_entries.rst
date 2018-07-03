@@ -43,6 +43,16 @@ Affiliates
 
 This view presents the available **affiliates**.
 
+The **search** functonality is enabled for all the displayed fields.
+
+There are no availbale **filtering** options.
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*), and 
+
+* **Name** (*ascending*/*descending*).
+
 .. image:: db_entries_affiliates.png
    :scale: 50 %
    :alt: Affiliates
@@ -52,6 +62,32 @@ Companies
 ^^^^^^^^^
 
 This view presents the available **companies**.
+
+The **search** functonality is enabled for all the displayed fields.
+
+The availbale **filtering** option are:
+
+* **Parent company**
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*),
+
+* **Name** (*ascending*/*descending*),
+
+* **Industry** (*ascending*/*descending*),
+
+* **Parent company** (*ascending*/*descending*),
+
+* **Salesforce ID** (*ascending*/*descending*),
+
+* **Location** (*ascending*/*descending*),
+
+* **Logo image** (*ascending*/*descending*),
+
+* **Banner image** (*ascending*/*descending*),and
+
+* **Website URL** (*ascending*/*descending*).
 
 .. image:: db_entries_companies.png
    :scale: 50 %
@@ -63,6 +99,32 @@ Lists
 
 This view presents the available **lists**.
 
+The **search** functonality is enabled for all the displayed fields.
+
+The availbale **filtering** option are:
+
+* **Category**,
+
+* **State**, and
+
+* **Owner affiliate**.
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*),
+
+* **Name** (*ascending*/*descending*),
+
+* **Description** (*ascending*/*descending*),
+
+* **Category** (*ascending*/*descending*),
+
+* **Owner affiliate** (*ascending*/*descending*),
+
+* **Ordering** (*ascending*/*descending*),and
+
+* **State** (*ascending*/*descending*).
+
 .. image:: db_entries_lists.png
    :scale: 50 %
    :alt: Lists
@@ -72,6 +134,18 @@ List categories
 ^^^^^^^^^^^^^^^
 
 This view presents the available **list categories**.
+
+The **search** functonality is enabled for all the displayed fields.
+
+There are no availbale **filtering** options.
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*),
+
+* **Name** (*ascending*/*descending*), and 
+
+* **Ordering** (*ascending*/*descending*).
 
 .. image:: db_entries_list_categories.png
    :scale: 50 %
@@ -83,6 +157,42 @@ Yearly lists
 
 This view presents the available **yearly lists**.
 
+The **search** functonality is enabled for all the displayed fields.
+
+The availbale **filtering** option are:
+
+* **List**,
+
+* **State**,
+
+* **Owner affiliate**,
+
+* **Start date**, and
+
+* **End date**.
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*),
+
+* **List** (*ascending*/*descending*),
+
+* **Year** (*ascending*/*descending*),
+
+* **Name** (*ascending*/*descending*),
+
+* **Description** (*ascending*/*descending*),
+
+* **Logo image** (*ascending*/*descending*),
+
+* **Banner image** (*ascending*/*descending*),
+
+* **Publication date** (*ascending*/*descending*),
+
+* **Certification date** (*ascending*/*descending*),and
+
+* **State** (*ascending*/*descending*).
+
 .. image:: db_entries_yearly_lists.png
    :scale: 50 %
    :alt: Yearly lists
@@ -92,6 +202,18 @@ Yearly list labels
 ^^^^^^^^^^^^^^^^^^
 
 This view presents the available **yearly list labels**.
+
+The **search** functonality is enabled for all the displayed fields.
+
+There are no availbale **filtering** options.
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*),
+
+* **Name** (*ascending*/*descending*), and 
+
+* **Ordering** (*ascending*/*descending*).
 
 .. image:: db_entries_yearly_list_labels.png
    :scale: 50 %
@@ -103,6 +225,24 @@ Labeled yearly lists
 
 This view presents the available **labeled yearly lists**.
 
+The **search** functonality is enabled for all the displayed fields.
+
+The availbale **filtering** option are:
+
+* **Yearly list**,
+
+* **Label**, and
+
+* **Owner affiliate**.
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*),
+
+* **Yearly list** (*ascending*/*descending*), and
+
+* **Label** (*ascending*/*descending*).
+
 .. image:: db_entries_labeled_yearly_lists.png
    :scale: 50 %
    :alt: Labeled yearly lists
@@ -112,6 +252,32 @@ Labeled yearly list participations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This view presents the available **labeled yearly list participations**.
+
+The **search** functonality is enabled for all the displayed fields.
+
+The availbale **filtering** option are:
+
+* **Yearly list**,
+
+* **Label**,
+
+* **Company**, and
+
+* **Owner affiliate**.
+
+The availbale **ordering** option are:
+
+* **ID** (*ascending*/*descending*),
+
+* **Yearly list** (*ascending*/*descending*),
+
+* **Label** (*ascending*/*descending*),
+
+* **Company** (*ascending*/*descending*),
+
+* **Quote** (*ascending*/*descending*), and
+
+* **Rank** (*ascending*/*descending*).
 
 .. image:: db_entries_labeled_yearly_list_participations.png
    :scale: 50 %
