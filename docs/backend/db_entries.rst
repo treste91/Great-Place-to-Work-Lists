@@ -184,5 +184,3 @@ The view presenting the available labeled yearly list participations.
    :scale: 50 %
    :alt: Labeled yearly list participations
    :align: center
-
-
