@@ -304,12 +304,16 @@ Affiliates
 ^^^^^^^^^^
 
 This view enables the editing of the available **affiliates**.
-This form is simple.
-It contains two fields:
+
+The form contains the following fields:
 
 * **ID**, and
 
 * **Name**
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Name** field is required and must be less than *190 characters*.
 
 .. image:: db_entries_edit_affiliate.png
    :scale: 50 %
@@ -321,10 +325,71 @@ Companies
 
 This view enables the editing of the available **companies**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **English name**,
+
+* **Salesforce ID**,
+
+* **Parent company**,
+
+* **Location**,
+
+* **Industry**,
+
+* **English logo URL**,
+
+* **Banner image**, and
+
+* **Website**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **English name** field is required and must be less than *255 characters*.
+
+The **Salesforce ID** field is required and must be less than *18 characters*. 
+
+The **Parent company** field is selected from a drop down list containnig the existing companies.
+
+The **Location** field must be of type text.
+
+The **Industry ID** field is selected from a drop down list containnig the existing industries.
+
+The **English Logo URL** field must be of type text.
+
+The **Banner image** field must be of type text.
+
+The **Website** field must be of type text.
+
 .. image:: db_entries_edit_company.png
    :scale: 50 %
    :alt: Company
    :align: center
+
+Furthermore, this form contains multiple *auto-generated* **translation sub-forms** for each of the languages associated with the affiliate of the logged user!
+Each **translation sub-form** contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Company**,
+
+* **Name**, and
+
+* **Logo URL**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is *auto-filled* based on the language locale associated with the affiliate of the user.
+
+The **Company** field is *auto-filled* based on the current company.
+
+The **Name** field must be less than *255 characters*.
+
+The **Logo URL** field must be of type text.
 
 .. image:: db_entries_edit_company_translation.png
    :scale: 50 %
