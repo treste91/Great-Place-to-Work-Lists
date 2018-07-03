@@ -22,6 +22,22 @@ The available database entries that constitute the component are displayed below
 Display existing entries
 ------------------------
 
+The initial view of this component consists of three main areas:
+
+* The **side menu**,
+
+* The **actions bar**, and 
+
+* The **list**.
+
+The **side menu** contains the types of database entries that exist.
+
+The **list** displays the entries that exist in the database. 
+Also this area contains a search, filtering and ordering mechanism which enables the use to display a subset of the total database entries.
+Furthermore, each type of database entries is subject to different variables and as a result the corresponding **list** area contains different filtering and ordering options.
+
+The **action bar** contains the buttons for manipulating the selected entries from **list** area.
+
 Affiliates
 ^^^^^^^^^^
 
@@ -35,7 +51,7 @@ This view presents the available affiliates.
 Companies
 ^^^^^^^^^
 
-The view presenting the available companies.
+This view presents the available companies.
 
 .. image:: db_entries_companies.png
    :scale: 50 %
@@ -45,7 +61,7 @@ The view presenting the available companies.
 Lists
 ^^^^^
 
-The view presenting the available lists.
+This view presents the available lists.
 
 .. image:: db_entries_lists.png
    :scale: 50 %
@@ -55,7 +71,7 @@ The view presenting the available lists.
 List categories
 ^^^^^^^^^^^^^^^
 
-The view presenting the available list categories.
+This view presents the available list categories.
 
 .. image:: db_entries_list_categories.png
    :scale: 50 %
@@ -65,7 +81,7 @@ The view presenting the available list categories.
 Yearly lists
 ^^^^^^^^^^^^
 
-The view presenting the available yearly lists.
+This view presents the available yearly lists.
 
 .. image:: db_entries_yearly_lists.png
    :scale: 50 %
@@ -75,7 +91,7 @@ The view presenting the available yearly lists.
 Yearly list labels
 ^^^^^^^^^^^^^^^^^^
 
-The view presenting the available yearly list labels.
+This view presents the available yearly list labels.
 
 .. image:: db_entries_yearly_list_labels.png
    :scale: 50 %
@@ -85,7 +101,7 @@ The view presenting the available yearly list labels.
 Labeled yearly lists
 ^^^^^^^^^^^^^^^^^^^^
 
-The view presenting the available labeled yearly lists.
+This view presents the available labeled yearly lists.
 
 .. image:: db_entries_labeled_yearly_lists.png
    :scale: 50 %
@@ -95,7 +111,7 @@ The view presenting the available labeled yearly lists.
 Labeled yearly list participations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The view presenting the available labeled yearly list participations.
+This view presents the available labeled yearly list participations.
 
 .. image:: db_entries_labeled_yearly_list_participations.png
    :scale: 50 %
