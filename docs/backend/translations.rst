@@ -237,6 +237,28 @@ Companies
 
 The translation of a **company**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Company**,
+
+* **Name**, and
+
+* **Logo URL**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is required and can selected from a drop down list containnig the existing fields.
+
+The **Company** field is required and can selected from a drop down list containnig the existing companies.
+
+The **Name** field must be less than *255 characters*.
+
+The **Logo URL** field must be of type text.
+
 .. image:: translations_edit_company.png
    :scale: 50 %
    :alt: Companies
@@ -246,6 +268,28 @@ Lists
 ^^^^^
 
 The translation of **list**.
+
+The form contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **List**,
+
+* **Name**, and
+
+* **Description**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is required and can selected from a drop down list containnig the existing locales.
+
+The **List** field is required and can selected from a drop down list containnig the existing lists.
+
+The **Name** field must be less than *255 characters*.
+
+The **Description** field must be of type text.
 
 .. image:: translations_edit_list.png
    :scale: 50 %
@@ -257,6 +301,24 @@ List categories
 
 The translation of a **list category**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **List category**, and
+
+* **Name**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is required and can selected from a drop down list containnig the existing locales.
+
+The **List category** field is required and can selected from a drop down list containnig the existing list categories.
+
+The **Name** field must be less than *255 characters*.
+
 .. image:: translations_edit_list_category.png
    :scale: 50 %
    :alt: List categories
@@ -266,6 +328,32 @@ Yearly lists
 ^^^^^^^^^^^^
 
 The translation of a **yearly list**.
+
+The form contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Yearly list**,
+
+* **Name**, 
+
+* **Description**, and
+
+* **Logo URL**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is required and can selected from a drop down list containnig the existing locales.
+
+The **Yearly list** field is required and can selected from a drop down list containnig the existing yearly lists.
+
+The **Name** field must be less than *255 characters*.
+
+The **Description** field must be of type text.
+
+The **Logo URL** field must be of type text.
 
 .. image:: translations_edit_yearly_list.png
    :scale: 50 %
@@ -277,6 +365,24 @@ Yearly list labels
 
 The translation of a **yearly list label**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Yearly list label**, and
+
+* **Name**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is required and can selected from a drop down list containnig the existing locales.
+
+The **Yearly list label** field is required and can selected from a drop down list containnig the existing yearly list labels.
+
+The **Name** field must be less than *255 characters*.
+
 .. image:: translations_edit_yearly_list_label.png
    :scale: 50 %
    :alt: Yearly list labels
@@ -286,6 +392,24 @@ Labeled yearly list participations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The translation of a **labeled yearly list participations**.
+
+The form contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Labeled yearly list participation**, and
+
+* **Company quote**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is required and can selected from a drop down list containnig the existing locales.
+
+The **Labeled yearly list participation** field is required and can selected from a drop down list containnig the existing labeled yearly list participations.
+
+The **Company quote** field must be of type text.
 
 .. image:: translations_edit_labeled_yearly_list_participation.png
    :scale: 50 %
