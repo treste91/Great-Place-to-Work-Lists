@@ -351,17 +351,17 @@ The **English name** field is required and must be less than *255 characters*.
 
 The **Salesforce ID** field is required and must be less than *18 characters*. 
 
-The **Parent company** field is selected from a drop down list containnig the existing companies.
+The **Parent company** field is required and can selected from a drop down list containnig the existing companies.
 
-The **Location** field must be of type text.
+The **Location** field required and must be of type text.
 
-The **Industry ID** field is selected from a drop down list containnig the existing industries.
+The **Industry ID** field is required and can selected from a drop down list containnig the existing industries.
 
-The **English Logo URL** field must be of type text.
+The **English Logo URL** field is required and must be of type text.
 
-The **Banner image** field must be of type text.
+The **Banner image** field is required and must be of type text.
 
-The **Website** field must be of type text.
+The **Website** field is required and must be of type text.
 
 .. image:: db_entries_edit_company.png
    :scale: 50 %
@@ -401,10 +401,63 @@ Lists
 
 This view enables the editing of the available **lists**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **English name**,
+
+* **English description**,
+
+* **Category**,
+
+* **Owner affiliate**,
+
+* **Ordering**, and
+
+* **State**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **English name** field is required and must be less than *255 characters*.
+
+The **English description** field is required and must be of type text.
+
+The **Category** field is required and can be selected from a drop down list containnig the existing category.
+
+The **Owner affiliate** field is required and can be selected from a drop down list containnig the existing affiliates.
+
+The **Ordering** field is required and must be an integer.
+
+The **State** field is required and must be an integer.
+
 .. image:: db_entries_edit_list.png
    :scale: 50 %
    :alt: List
    :align: center
+
+Furthermore, this form contains multiple *auto-generated* **translation sub-forms** for each of the languages associated with the affiliate of the logged user!
+Each **translation sub-form** contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **List**,
+
+* **Name**, and
+
+* **Description**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is *auto-filled* based on the language locale associated with the affiliate of the user.
+
+The **List** field is *auto-filled* based on the current company.
+
+The **Name** field must be less than *255 characters*.
+
+The **Description** field must be of type text.
 
 .. image:: db_entries_edit_list_translation.png
    :scale: 50 %
