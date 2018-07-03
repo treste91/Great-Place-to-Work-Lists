@@ -150,11 +150,6 @@ It contains two fields:
    :alt: Affiliate
    :align: center
 
-.. image:: db_entries_edit_affiliate_translation.png
-   :scale: 50 %
-   :alt: Affiliate translation
-   :align: center
-
 Companies
 ^^^^^^^^^
 
@@ -238,11 +233,6 @@ This view enables the editing of the available **labeled yearly lists**.
 .. image:: db_entries_edit_labeled_yearly_list.png
    :scale: 50 %
    :alt: Labeled yearly list
-   :align: center
-
-.. image:: db_entries_edit_labeled_yearly_list_translation.png
-   :scale: 50 %
-   :alt: Labeled yearly list translation
    :align: center
 
 Labeled yearly list participations
