@@ -309,7 +309,7 @@ The form contains the following fields:
 
 * **ID**, and
 
-* **Name**
+* **Name**.
 
 The **ID** field is *auto-filled* and *auto-generated*.
 
@@ -453,7 +453,7 @@ The **ID** field is *auto-filled* and *auto-generated*.
 
 The **Locale** field is *auto-filled* based on the language locale associated with the affiliate of the user.
 
-The **List** field is *auto-filled* based on the current company.
+The **List** field is *auto-filled* based on the current list.
 
 The **Name** field must be less than *255 characters*.
 
@@ -469,10 +469,43 @@ List categories
 
 This view enables the editing of the available **list categories**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **English name**, and
+
+* **Ordering**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **English name** field is required and must be less than *190 characters*.
+
+The **Ordering** field is required and must be an integer.
+
 .. image:: db_entries_edit_list_category.png
    :scale: 50 %
    :alt: List category
    :align: center
+   
+Furthermore, this form contains multiple *auto-generated* **translation sub-forms** for each of the languages associated with the affiliate of the logged user!
+Each **translation sub-form** contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **List category**, and
+
+* **Name**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is *auto-filled* based on the language locale associated with the affiliate of the user.
+
+The **List category** field is *auto-filled* based on the current list category.
+
+The **Name** field must be less than *255 characters*.
 
 .. image:: db_entries_edit_list_category_translation.png
    :scale: 50 %
@@ -499,10 +532,43 @@ Yearly list labels
 
 This view enables the editing of the available **yearly list labels**.
 
+The form contains the following fields:
+
+* **ID**,
+
+* **English name**, and
+
+* **Ordering**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **English name** field is required and must be less than *190 characters*.
+
+The **Ordering** field is required and must be an integer.
+
 .. image:: db_entries_edit_yearly_list_label.png
    :scale: 50 %
    :alt: Yearly list label
    :align: center
+   
+Furthermore, this form contains multiple *auto-generated* **translation sub-forms** for each of the languages associated with the affiliate of the logged user!
+Each **translation sub-form** contains the following fields:
+
+* **ID**,
+
+* **Locale**,
+
+* **Yearly list label**, and
+
+* **Name**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Locale** field is *auto-filled* based on the language locale associated with the affiliate of the user.
+
+The **Yearly list label** field is *auto-filled* based on the current list category.
+
+The **Name** field must be less than *255 characters*.
 
 .. image:: db_entries_edit_yearly_list_label_translation.png
    :scale: 50 %
@@ -513,6 +579,20 @@ Labeled yearly lists
 ^^^^^^^^^^^^^^^^^^^^
 
 This view enables the editing of the available **labeled yearly lists**.
+
+The form contains the following fields:
+
+* **ID**,
+
+* **Yearly list**, and
+
+* **Label**.
+
+The **ID** field is *auto-filled* and *auto-generated*.
+
+The **Yearly list** field is required and can be selected from a drop down list containnig the existing yearly lists.
+
+The **Label** field is required and can be selected from a drop down list containnig the existing labels.
 
 .. image:: db_entries_edit_labeled_yearly_list.png
    :scale: 50 %
