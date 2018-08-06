@@ -27,7 +27,9 @@ Retrieve all the available lists.
 Endpoint
 ^^^^^^^^
 
-: GET  /api/lists :
+.. highlight:: js
+  :linenothreshold:: 3
+  GET  /api/lists
 
 Request Format
 ^^^^^^^^^^^^^^
