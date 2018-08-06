@@ -31,7 +31,7 @@ List
 
 Retrieve a list based on the id.
 
-'GET  /api/lists/list_id'
+`GET  /api/lists/list_id`
 
 Yearly list
 ------------
