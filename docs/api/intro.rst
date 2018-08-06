@@ -24,7 +24,7 @@ Lists
 
 Retrieve all the available lists.
 
-**GET  /api/lists**
+```GET  /api/lists```
 
 List
 -----
@@ -38,18 +38,18 @@ Yearly list
 
 Retrieve a yearly list based on the id of the list it belongs and the year.
 
-**GET  /api/lists/list_id/year**
+```GET  /api/lists/list_id/year```
 
 List categories
 ---------------
 
 Retrieve all the available list categories.
 
-**GET  /api/categories**
+```GET  /api/categories```
 
 Affiliates
 ----------
 
 Retrieve all the available affiliates.
 
-**GET  /api/affiliates**
+```GET  /api/affiliates```
