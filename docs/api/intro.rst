@@ -29,6 +29,7 @@ Endpoint
 
 .. highlight:: js
   :linenothreshold:: 3
+  
   GET  /api/lists
 
 Request Format
