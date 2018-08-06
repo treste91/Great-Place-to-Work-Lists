@@ -24,32 +24,77 @@ Lists
 
 Retrieve all the available lists.
 
+Endpoint
+^^^^^^^^
+
 ``GET  /api/lists``
+
+Request Format
+^^^^^^^^^^^^^^
+
+Response Format
+^^^^^^^^^^^^^^^
 
 List
 -----
 
 Retrieve a list based on the id.
 
+Endpoint
+^^^^^^^^
+
 ``GET  /api/lists/list_id``
+
+Request Format
+^^^^^^^^^^^^^^
+
+Response Format
+^^^^^^^^^^^^^^^
 
 Yearly list
 ------------
 
 Retrieve a yearly list based on the id of the list it belongs and the year.
 
+Endpoint
+^^^^^^^^
+
 ``GET  /api/lists/list_id/year``
+
+Request Format
+^^^^^^^^^^^^^^
+
+Response Format
+^^^^^^^^^^^^^^^
 
 List categories
 ---------------
 
 Retrieve all the available list categories.
 
+Endpoint
+^^^^^^^^
+
 ``GET  /api/categories``
+
+Request Format
+^^^^^^^^^^^^^^
+
+Response Format
+^^^^^^^^^^^^^^^
 
 Affiliates
 ----------
 
 Retrieve all the available affiliates.
 
+Endpoint
+^^^^^^^^
+
 ``GET  /api/affiliates``
+
+Request Format
+^^^^^^^^^^^^^^
+
+Response Format
+^^^^^^^^^^^^^^^
