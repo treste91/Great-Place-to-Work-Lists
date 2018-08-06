@@ -27,9 +27,9 @@ Retrieve all the available lists.
 Endpoint
 ^^^^^^^^
 
-``
+```
 GET  /api/lists
-``
+```
 
 Request Format
 ^^^^^^^^^^^^^^
