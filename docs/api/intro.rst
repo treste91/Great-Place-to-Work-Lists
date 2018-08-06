@@ -138,7 +138,7 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
-.. code-block:: js
+.. code-block:: json
 
     {
     "success": true,
