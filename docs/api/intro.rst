@@ -138,7 +138,7 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
-.. code-block:: text
+.. code-block:: js
 
     {
     "success": true,
@@ -205,7 +205,7 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
-.. code-block:: text
+.. code-block:: json
 
     {
     "success": true,
@@ -368,7 +368,7 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
-.. code-block:: text
+.. code-block:: json
 
     {
     "success": true,
@@ -414,7 +414,7 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
-.. code-block:: text
+.. code-block:: json
 
     {
     "success": true,
