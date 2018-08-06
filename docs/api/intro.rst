@@ -8,3 +8,7 @@ The Great Place to Work REST API enables second and third party applications to 
 * **List categories**
 * **Affiliates**
 
+API Authorisation
+=================
+
+Each request to the Great Place to Work REST API must include a valid **username** and **password**.
