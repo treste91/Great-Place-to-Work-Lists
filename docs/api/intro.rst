@@ -45,11 +45,11 @@ Retrieve a list based on the id.
 Endpoint
 ^^^^^^^^
 
-``
+```
 
 GET  /api/lists/list_id
 
-``
+```
 
 Request Format
 ^^^^^^^^^^^^^^
