@@ -140,6 +140,45 @@ Response Format
 
 .. code-block:: text
 
+    {
+    "success": true,
+    "message": null,
+    "messages": null,
+    "data": [
+        {
+            "id": "1",
+            "name_eng": "List_1",
+            "description_eng": "Description of List_1",
+            "category_id": "1",
+            "owned_by_affiliate_id": "1",
+            "ordering": "1",
+            "state": "1",
+            "category_name": "Category_1"
+        },
+        {
+            "id": "1",
+            "list_id": "1",
+            "year": "2018",
+            "name_eng": "List_1_2018",
+            "description_long_eng": "Description of List_1_2018",
+            "logo_url_eng": "https://www.greatplacetowork.com/images/logos/2018-Best-Workplaces-in-Technology.png",
+            "publish_date": "2018-04-21 00:00:00",
+            "state": "1",
+            "banner_image": "https://s3.amazonaws.com/media.greatplacetowork.com/images/BLANK_Homepage_Retail_List_3.2gptw_homepage_1600x606.jpg",
+            "certified_by": "2018-04-21 00:00:00",
+            "methodology_html": "html",
+            "list_name": "List_1",
+            "labeled_id": "1",
+            "company_logo": "https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_logos_v11/L-QuickenLoans-RGB-20161123_calogo4090.jpg,https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_logos_v11/somclogo_calogo3701.jpg",
+            "logos": [],
+            "company_logos": [
+                "https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_logos_v11/L-QuickenLoans-RGB-20161123_calogo4090.jpg",
+                "https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_logos_v11/somclogo_calogo3701.jpg"
+            ]
+        }
+    ]
+}
+
 Yearly list
 ------------
 
@@ -157,10 +196,151 @@ Request Format
 
 You must set an Accept: application/json header on all requests.
 
+Example:
+
+.. code-block:: text
+
+    http://localhost/api/lists/1/2018/?username=test&password=test
+
 Response Format
 ^^^^^^^^^^^^^^^
 
 .. code-block:: text
+
+    {
+    "success": true,
+    "message": null,
+    "messages": null,
+    "data": [
+        {
+            "id": "1",
+            "list_id": "1",
+            "year": "2018",
+            "name_eng": "List_1_2018",
+            "description_long_eng": "Description of List_1_2018",
+            "logo_url_eng": "https://www.greatplacetowork.com/images/logos/2018-Best-Workplaces-in-Technology.png",
+            "publish_date": "2018-04-21 00:00:00",
+            "state": "1",
+            "banner_image": "https://s3.amazonaws.com/media.greatplacetowork.com/images/BLANK_Homepage_Retail_List_3.2gptw_homepage_1600x606.jpg",
+            "certified_by": "2018-04-21 00:00:00",
+            "methodology_html": "html",
+            "list_name": "List_1"
+        },
+        [
+            {
+                "label": "Label_1",
+                "id": "1",
+                "parent_company_id": null,
+                "salesforce_id": "100",
+                "cached_name_eng": "Company_1",
+                "industry_id": "18",
+                "location": "Thessaloniki, Greece",
+                "banner_image": "https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_photos_v11/RockConnections-20140408-1581_caphoto23773.jpg",
+                "logo_url_eng": "https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_logos_v11/L-QuickenLoans-RGB-20161123_calogo4090.jpg",
+                "company_url": "http://reviews.greatplacetowork.com/quicken-loans",
+                "labeled_yearly_list_id": "1",
+                "company_id": "1",
+                "company_quote_eng": "Quote for Company_1",
+                "rank": "1",
+                "industry_name": "Financial Services & Insurance"
+            },
+            {
+                "label": "Label_1",
+                "id": "2",
+                "parent_company_id": null,
+                "salesforce_id": "200",
+                "cached_name_eng": "Company_2",
+                "industry_id": "21",
+                "location": "Athens, Greece",
+                "banner_image": "https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_photos_v11/Registration_caphoto21366.jpg",
+                "logo_url_eng": "https://s3.amazonaws.com/culturesurvey.greatplacetowork.com/public/prd_logos_v11/somclogo_calogo3701.jpg",
+                "company_url": "http://reviews.greatplacetowork.com/southern-ohio-medical",
+                "labeled_yearly_list_id": "1",
+                "company_id": "2",
+                "company_quote_eng": "Quote for Company_2",
+                "rank": "2",
+                "industry_name": "Health Care"
+            }
+        ],
+        [
+            {
+                "id": "5",
+                "list_id": "1",
+                "year": "2017",
+                "name_eng": "List_1_2017",
+                "description_long_eng": "Description of List_1_2017",
+                "logo_url_eng": "https://s3.amazonaws.com/media.greatplacetowork.com/images/2017-technology_color.png",
+                "publish_date": "2018-05-07 00:00:00",
+                "state": "1",
+                "banner_image": "https://s3.amazonaws.com/media.greatplacetowork.com/images/Technology_crophomepage_1600x606_10.jpg",
+                "certified_by": "2018-05-08 00:00:00",
+                "methodology_html": "html",
+                "is_active": "0"
+            },
+            {
+                "id": "1",
+                "list_id": "1",
+                "year": "2018",
+                "name_eng": "List_1_2018",
+                "description_long_eng": "Description of List_1_2018",
+                "logo_url_eng": "https://www.greatplacetowork.com/images/logos/2018-Best-Workplaces-in-Technology.png",
+                "publish_date": "2018-04-21 00:00:00",
+                "state": "1",
+                "banner_image": "https://s3.amazonaws.com/media.greatplacetowork.com/images/BLANK_Homepage_Retail_List_3.2gptw_homepage_1600x606.jpg",
+                "certified_by": "2018-04-21 00:00:00",
+                "methodology_html": "html",
+                "is_active": "1"
+            }
+        ],
+        [
+            "Label_1"
+        ],
+        [
+            {
+                "list_name": "List_1",
+                "id": "5",
+                "list_id": "1",
+                "year": "2017",
+                "name_eng": "List_1_2017",
+                "description_long_eng": "Description of List_1_2017",
+                "logo_url_eng": "https://s3.amazonaws.com/media.greatplacetowork.com/images/2017-technology_color.png",
+                "publish_date": "2018-05-07 00:00:00",
+                "state": "1",
+                "banner_image": "https://s3.amazonaws.com/media.greatplacetowork.com/images/Technology_crophomepage_1600x606_10.jpg",
+                "certified_by": "2018-05-08 00:00:00",
+                "methodology_html": "html"
+            },
+            {
+                "list_name": "List_2",
+                "id": "3",
+                "list_id": "2",
+                "year": "2017",
+                "name_eng": "List_2_2017",
+                "description_long_eng": "Description of List_2_2017",
+                "logo_url_eng": "https://s3.amazonaws.com/media.greatplacetowork.com/images/list_texas_rgb_color.png",
+                "publish_date": "2018-05-06 00:00:00",
+                "state": "1",
+                "banner_image": "https://s3.amazonaws.com/media.greatplacetowork.com/images/Texas-Image.jpg",
+                "certified_by": "2018-05-07 00:00:00",
+                "methodology_html": "html"
+            },
+            {
+                "list_name": "List_3",
+                "id": "6",
+                "list_id": "3",
+                "year": "2018",
+                "name_eng": "List_3_2018",
+                "description_long_eng": "Description of List_3_2018",
+                "logo_url_eng": "https://www.greatplacetowork.com/images/logos/2018-Best-Workplaces-in-Technology.png",
+                "publish_date": "2018-05-02 00:00:00",
+                "state": "1",
+                "banner_image": "https://www.greatplacetowork.com/images/list-headers/2017smb-crop_gptw_homepageALT_1600x606.png",
+                "certified_by": "2018-05-03 00:00:00",
+                "methodology_html": "html"
+            }
+        ]
+    ]
+}
 
 List categories
 ---------------
@@ -179,10 +359,34 @@ Request Format
 
 You must set an Accept: application/json header on all requests.
 
+Example:
+
+.. code-block:: text
+
+    http://localhost/api/categories/?username=test&password=test
+
 Response Format
 ^^^^^^^^^^^^^^^
 
 .. code-block:: text
+
+    {
+    "success": true,
+    "message": null,
+    "messages": null,
+    "data": [
+        {
+            "id": "1",
+            "name_eng": "Category_1",
+            "ordering": "1"
+        },
+        {
+            "id": "2",
+            "name_eng": "Category_2",
+            "ordering": "2"
+        }
+    ]
+}
 
 Affiliates
 ----------
@@ -201,7 +405,37 @@ Request Format
 
 You must set an Accept: application/json header on all requests.
 
+Example:
+
+.. code-block:: text
+
+    http://localhost/api/affiliates/?username=test&password=test
+
 Response Format
 ^^^^^^^^^^^^^^^
 
 .. code-block:: text
+
+    {
+    "success": true,
+    "message": null,
+    "messages": null,
+    "data": [
+        {
+            "id": "1",
+            "name": "Affiliate_1"
+        },
+        {
+            "id": "2",
+            "name": "Affiliate_2"
+        },
+        {
+            "id": "3",
+            "name": "Affiliate_3"
+        },
+        {
+            "id": "4",
+            "name": "Affiliate_4"
+        }
+    ]
+}
