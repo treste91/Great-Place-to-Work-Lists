@@ -27,9 +27,7 @@ Retrieve all the available lists.
 Endpoint
 ^^^^^^^^
 
-```
-GET  /api/lists
-```
+``GET  /api/lists``
 
 Request Format
 ^^^^^^^^^^^^^^
@@ -45,9 +43,7 @@ Retrieve a list based on the id.
 Endpoint
 ^^^^^^^^
 
-```
-GET  /api/lists/list_id
-```
+``GET  /api/lists/list_id``
 
 Request Format
 ^^^^^^^^^^^^^^
@@ -63,9 +59,7 @@ Retrieve a yearly list based on the id of the list it belongs and the year.
 Endpoint
 ^^^^^^^^
 
-```
-GET  /api/lists/list_id/year
-``
+``GET  /api/lists/list_id/year``
 
 Request Format
 ^^^^^^^^^^^^^^
