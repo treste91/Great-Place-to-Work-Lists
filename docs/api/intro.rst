@@ -27,7 +27,9 @@ Retrieve all the available lists.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/lists``
+.. code-block:: text
+  
+    GET  /api/lists
 
 Request Format
 ^^^^^^^^^^^^^^
@@ -43,7 +45,9 @@ Retrieve a list based on the id.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/lists/list_id``
+.. code-block:: text
+  
+    GET  /api/lists/list_id
 
 Request Format
 ^^^^^^^^^^^^^^
@@ -59,7 +63,9 @@ Retrieve a yearly list based on the id of the list it belongs and the year.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/lists/list_id/year``
+.. code-block:: text
+  
+    GET  /api/lists/list_id/year
 
 Request Format
 ^^^^^^^^^^^^^^
@@ -75,7 +81,9 @@ Retrieve all the available list categories.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/categories``
+.. code-block:: text
+  
+    GET  /api/categories
 
 Request Format
 ^^^^^^^^^^^^^^
@@ -91,7 +99,9 @@ Retrieve all the available affiliates.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/affiliates``
+.. code-block:: text
+  
+    GET  /api/affiliates
 
 Request Format
 ^^^^^^^^^^^^^^
