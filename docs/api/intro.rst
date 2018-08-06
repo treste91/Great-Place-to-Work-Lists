@@ -46,9 +46,7 @@ Endpoint
 ^^^^^^^^
 
 ```
-
 GET  /api/lists/list_id
-
 ```
 
 Request Format
@@ -65,7 +63,9 @@ Retrieve a yearly list based on the id of the list it belongs and the year.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/lists/list_id/year``
+```
+GET  /api/lists/list_id/year
+``
 
 Request Format
 ^^^^^^^^^^^^^^
