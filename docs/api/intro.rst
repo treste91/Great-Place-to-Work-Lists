@@ -27,7 +27,7 @@ Retrieve all the available lists.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/lists``
+```GET  /api/lists```
 
 Request Format
 ^^^^^^^^^^^^^^
@@ -43,7 +43,7 @@ Retrieve a list based on the id.
 Endpoint
 ^^^^^^^^
 
-``GET  /api/lists/list_id``
+`GET  /api/lists/list_id`
 
 Request Format
 ^^^^^^^^^^^^^^
