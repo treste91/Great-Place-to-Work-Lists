@@ -45,7 +45,7 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
-.. code-block:: text
+.. code-block:: json
 
     {
     "success": true,
