@@ -26,8 +26,11 @@ Retrieve all the available lists.
 
 Endpoint
 ^^^^^^^^
+.. code-block:: none
+  :linenos: 2
 
-``GET  /api/lists``
+GET  /api/lists
+
 
 Request Format
 ^^^^^^^^^^^^^^
