@@ -45,6 +45,9 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
+The **data** of this response are an array containing all the available **lists** residing in the database.
+Each **list** item is in the format of an **StdObject** in order to be interpreted and handled correctly by Joomla.
+
 .. code-block:: json
 
     {
@@ -139,6 +142,13 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
+The **data** of this response are an array containing:
+
+* The requested **list** and 
+* The most **recent yearly list** that belongs in the requested list.
+
+Both the **list** and **yearly list** items are in the format of **StdObject** in order to be interpreted and handled correctly by Joomla.
+
 .. code-block:: json
 
     {
@@ -206,6 +216,15 @@ Example:
 
 Response Format
 ^^^^^^^^^^^^^^^
+
+The **data** of this response are an array containing:
+
+* The requested **yearly list**,
+* An array of the **companies** that participated in the requested yearly list,
+* An array of all the **yearly lists related** to the parent list of the requested yearly list,
+* The **labels** that the requested yearly list belongs to, and 
+* An array of the most **recent yearly lists**.
+All the **list**, **yearly list** and **company** items are in the format of **StdObject** in order to be interpreted and handled correctly by Joomla.
 
 .. code-block:: json
 
@@ -371,6 +390,9 @@ Example:
 Response Format
 ^^^^^^^^^^^^^^^
 
+The **data** of this response are an array containing all the available **list categories** residing in the database.
+Each **list category** item is in the format of an **StdObject** in order to be interpreted and handled correctly by Joomla.
+
 .. code-block:: json
 
     {
@@ -417,6 +439,9 @@ Example:
 
 Response Format
 ^^^^^^^^^^^^^^^
+
+The **data** of this response are an array containing all the available **affiliates** residing in the database.
+Each **affiliate** item is in the format of an **StdObject** in order to be interpreted and handled correctly by Joomla.
 
 .. code-block:: json
 
