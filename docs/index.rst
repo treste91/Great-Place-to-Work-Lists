@@ -27,6 +27,7 @@ Contents:
    :caption: Frontend
    :maxdepth: 3
    
+   frontend/configuration
    frontend/lists
    frontend/list
    frontend/yearly_list
